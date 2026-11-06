@@ -1,11 +1,47 @@
+# ==========================
+# Python & Virtual Environments
+# ==========================
+__pycache__/
+*.py*
+*.pyc
+*.pyd
+.venv/
+env/
+venv/
+
+# ==========================
 # PyInstaller Build Artifacts
+# ==========================
 build/
 dist/
 *.spec
 
-# Python Cache
-__pycache__/
-*.pyc
+# ==========================
+# LaTeX Build & Auxiliary Files (Fixes TeX language override)
+# ==========================
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+*.pdf
 
-# Local Databases & Settings
+# ==========================
+# Local Application Data & DBs
+# ==========================
 jean_memory.db
+*.log
+
+# ==========================
+# OS Generated Files
+# ==========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

@@ -1,0 +1,11 @@
+# PyInstaller Build Artifacts
+build/
+dist/
+*.spec
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Databases & Settings
+jean_memory.db
